@@ -1,17 +1,13 @@
 /* http://megep.meb.gov.tr/mte_program_modul/moduller_pdf/Stil%20%C5%9Eablonu%20(CSS).pdf */
 /* sayfa 31deyim */
 
-
-.em-kullanim{
-    background-image:url("Metin2.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    font-size: 10em;
-    color: aqua;
-}
-
-.ex-kullanim{
-    background-color: #9F20FF;
-    font-size: 5ex;
-    color: rgb(109, 101, 14);
+.ornek{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    text-align: justify;
+    border: 2px solid;
+    display:flexbox;
+    margin: 100px;
+    padding:20px 20px 20px 20px;
+    background-color: burlywood;
 }
