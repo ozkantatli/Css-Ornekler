@@ -2,12 +2,29 @@
 /* sayfa 31deyim */
 
 .ornek{
+    float:left;
     font-family: 'Courier New', Courier, monospace;
     font-size: 15px;
     text-align: justify;
+    width: 40%;
+    height: 250px;
+    letter-spacing: 5px;
     border: 2px solid;
-    display:flexbox;
-    margin: 100px;
+    display:block;
     padding:20px 20px 20px 20px;
     background-color: burlywood;
+}
+.ornek1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    color: rgb(247, 243, 243);
+    width: 40%;
+    height: 250px;
+    text-align: justify;
+    border: 2px solid;
+    padding:20px 20px 20px 20px;
+    background-color: rgb(179, 145, 100);
+    border-color: black;
+    border-style:dotted;
+    float:right;
 }
